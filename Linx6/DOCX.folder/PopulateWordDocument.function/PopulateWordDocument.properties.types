@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Z9ZJ",
+      "Properties": [
+        {
+          "Id": "415e",
+          "Name": "DocxFileFullPath",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "0Jbd",
+          "Name": "ListOfPlaceholdersAndValues",
+          "Type": "List:Custom:u2jk",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

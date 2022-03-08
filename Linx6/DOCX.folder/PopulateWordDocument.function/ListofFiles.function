@@ -1,0 +1,63 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "List:Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "[{\"LinxExpression\":\"[PARSED]\"},{\"LinxExpression\":\"[PARSED]\"},{\"LinxExpression\":\"[PARSED]\"},{\"LinxExpression\":\"[PARSED]\"}]",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "[]"
+            ],
+            "expression": {
+              "Expression": "RootPath+\"_rels\"",
+              "CompiledExpression": "={0}+\"_rels\"",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "[]"
+            ],
+            "expression": {
+              "Expression": "RootPath+\"docProps\"",
+              "CompiledExpression": "={0}+\"docProps\"",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "[]"
+            ],
+            "expression": {
+              "Expression": "RootPath+\"word\"",
+              "CompiledExpression": "={0}+\"word\"",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "[]"
+            ],
+            "expression": {
+              "Expression": "RootPath+\"[Content_Types].xml\"",
+              "CompiledExpression": "={0}+\"[Content_Types].xml\"",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Compiled:String",
+      "ValueType": "Twenty57.Linx.SolutionDependencies.Types.CompiledTypeReference, Twenty57.Linx.SolutionDependencies.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "Result": "List:Compiled:String"
+}

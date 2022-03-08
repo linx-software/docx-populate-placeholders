@@ -1,0 +1,29 @@
+{
+  "Properties": [
+    {
+      "Id": "Function         ​",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "string Function()\r\n{\r\n    return System.IO.Path.GetRandomFileName();\r\n}"
+    },
+    {
+      "Id": "IsCodeValid",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "MethodBody",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "return System.IO.Path.GetRandomFileName();"
+    },
+    {
+      "Id": "ErrorMessage",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": null
+    }
+  ],
+  "Result": "Compiled:String"
+}

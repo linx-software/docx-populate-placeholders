@@ -1,0 +1,24 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:u2jk",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:u2jk",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.ListOfPlaceholdersAndValues",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:u2jk"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

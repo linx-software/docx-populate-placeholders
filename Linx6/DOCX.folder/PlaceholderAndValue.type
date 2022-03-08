@@ -1,0 +1,16 @@
+{
+  "Id": "u2jk",
+  "Name": "PlaceholderAndValue",
+  "Properties": [
+    {
+      "Id": "UBDR",
+      "Name": "Placeholder",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "46pB",
+      "Name": "Value",
+      "Type": "Compiled:String"
+    }
+  ]
+}

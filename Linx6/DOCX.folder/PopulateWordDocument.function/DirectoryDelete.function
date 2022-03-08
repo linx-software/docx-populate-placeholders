@@ -1,0 +1,15 @@
+{
+  "Properties": [
+    {
+      "Id": "Directory",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.DocxFileFullPath+GenerateRandomTempFolderName",
+        "CompiledExpression": "={1}+{0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

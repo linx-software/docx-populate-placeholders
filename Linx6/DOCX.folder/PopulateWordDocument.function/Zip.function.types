@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "FpAT",
+      "Properties": [
+        {
+          "Id": "ArchiveFilePath",
+          "Name": "ArchiveFilePath",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]
