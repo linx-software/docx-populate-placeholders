@@ -3,12 +3,18 @@
     "Id": "vXx4",
     "Name": "NewFilePath",
     "Type": "Compiled:String",
-    "Value": "C:\\TEMP\\wordTest\\Inbox\\Template2.docx"
+    "Value": "{RootFolder}Results\\Template_1.docx"
   },
   {
     "Id": "Smu5",
     "Name": "DocumentFilePath",
     "Type": "Compiled:String",
-    "Value": "C:\\TEMP\\wordTest\\Inbox\\Template.docx"
+    "Value": "{RootFolder}Inbox\\Template.docx"
+  },
+  {
+    "Id": "6mMc",
+    "Name": "RootFolder",
+    "Type": "Compiled:String",
+    "Value": "C:\\Linx\\PopulatingWordDocument\\"
   }
 ]
