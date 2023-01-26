@@ -2,7 +2,7 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "Z9ZJ",
+      "Id": "SSmO",
       "Properties": [
         {
           "Id": "415e",
@@ -14,6 +14,12 @@
           "Id": "0Jbd",
           "Name": "ListOfPlaceholdersAndValues",
           "Type": "List:Custom:u2jk",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "iMIi",
+          "Name": "NewFileNameFullPath",
+          "Type": "Compiled:String",
           "Access": "ReadWrite"
         }
       ]

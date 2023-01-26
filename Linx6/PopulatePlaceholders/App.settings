@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "vXx4",
+    "Name": "NewFilePath",
+    "Type": "Compiled:String",
+    "Value": "C:\\TEMP\\wordTest\\Inbox\\Template2.docx"
+  },
+  {
+    "Id": "Smu5",
+    "Name": "DocumentFilePath",
+    "Type": "Compiled:String",
+    "Value": "C:\\TEMP\\wordTest\\Inbox\\Template.docx"
+  }
+]

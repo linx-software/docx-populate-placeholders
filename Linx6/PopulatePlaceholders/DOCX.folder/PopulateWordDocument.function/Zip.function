@@ -1,0 +1,45 @@
+{
+  "Properties": [
+    {
+      "Id": "Archive",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.NewFileNameFullPath",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Archive does not exist",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Compression.Zip.DoesNotExistOptions, Twenty57.Linx.Plugins.Compression, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "CreateFile"
+    },
+    {
+      "Id": "Archive exists",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Compression.Zip.ExistOptions, Twenty57.Linx.Plugins.Compression, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "OverwriteFile"
+    },
+    {
+      "Id": "Files to compress",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "ListofFiles",
+        "CompiledExpression": "={0}",
+        "Type": "List:Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Password",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    }
+  ],
+  "Result": "Generated:FpAT"
+}

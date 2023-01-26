@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "FileContents.Replace(ForEach.Loop.Placeholder, ForEach.Loop.Value.Replace(\"$.System.NewLine\", \" </w:t> <w:br/> <w:t> \").Replace(\"\\n\", \" </w:t> <w:br/> <w:t> \"))",
+        "CompiledExpression": "={2}.Replace({1},{0}.Replace(\"$.System.NewLine\",\" </w:t> <w:br/> <w:t> \").Replace(\"\\n\",\" </w:t> <w:br/> <w:t> \"))",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "FileContents",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
