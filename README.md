@@ -9,8 +9,6 @@ Replacing placeholder text in a `.docx` file
 
 ## Usage
 
-To use the sample as-is
-
 1. Download this repo
 2. Open the `PopulatePlaceholders.solution` file in the `Linx6` folder
 3. Debug the function entitled `Main`
@@ -27,9 +25,9 @@ To use the sample as-is
 
 1. Add your own placeholder text to the List entitled `ListOfChanges` in the `Main` function
 1. Place any `.docx` files you want processed into the `DocumentsFolder` folder
-1. When you debug the `Main` function all `docx` files in that folder will be processed
+1. When you debug the `Main` function all `docx` files in the `DocumentsFolder` folder will be processed
 
-### How it works
+## Explanation
 
 The function called `Main` reads the `DocumentsFolder` and returns a list of all `docx` files contained therein.
 
@@ -43,13 +41,11 @@ The XML file containing the text of the Word Document is then read.
 
 The function then loops through the key-value pairs contained in the `PlaceholderAndValue` list, finds all words matching the value in the placeholder property and replaces them with the value from the `Value` property.
 
-When all the replacements have completed, the file contents are overwritten with the new contents.
+When all the replacements have completed, the extracted and updated files are zipped into a new '.docx' file.
 
-The files are then zipped back into a '.docx' file.
+The new file is then saved in the `Results` folder and the processed file is moved to the `Processed` folder.
 
-The new file is then created in the `Results` folder and the processed file is moved to the `Processed` folder.
-
-## Contributing
+## Contributions and questions
 
 For questions please ask the [Linx community](https://linx/software/community) or use the [Slack channel](https://linxsoftware.slack.com/archives/C01FLBC1XNX). 
 
