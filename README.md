@@ -1,7 +1,7 @@
 # Populating a DOCX with placeholder text
 
 ## Description
-The provided sample achieves the task of replacing placeholder text within a `.docx` file.
+Replace placeholder text in a `.docx` file.
 
 
 ## Installation
