@@ -1,0 +1,16 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.DocxFileFullPath.Split(\"\\\\\")[$.Parameters.DocxFileFullPath.Split(\"\\\\\").Count() - 1].Replace(\".docx\",\"\") + \"_Processed\" + GenerateRandomTempFolderName.Bytes[0] + \".docx\"",
+        "CompiledExpression": "={2}.Split(System.Linq.Enumerable.Repeat(\"\\\\\", 1).ToArray(), System.StringSplitOptions.None)[{1}.Split(System.Linq.Enumerable.Repeat(\"\\\\\", 1).ToArray(), System.StringSplitOptions.None).Count()-1].Replace(\".docx\",\"\")+\"_Processed\"+{0}[0]+\".docx\"",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Compiled:String"
+}

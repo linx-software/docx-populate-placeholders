@@ -1,0 +1,22 @@
+{
+  "Properties": [
+    {
+      "Id": "Directory",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.RootFolder + \"\\\\Processed\\\\\"",
+        "CompiledExpression": "={0}+\"\\\\Processed\\\\\"",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Directory exists​",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.DirectoryCreate.CreateExistsOption, Twenty57.Linx.Plugins.File, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "DoNothing"
+    }
+  ],
+  "Result": "Compiled:String"
+}

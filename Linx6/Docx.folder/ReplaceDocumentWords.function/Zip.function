@@ -5,8 +5,8 @@
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.NewFileNameFullPath",
-        "CompiledExpression": "={0}",
+        "Expression": "$.Parameters.RootFolder + \"\\\\Results\\\\\" + NewFileName",
+        "CompiledExpression": "={1}+\"\\\\Results\\\\\"+{0}",
         "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"
@@ -21,7 +21,7 @@
       "Id": "Archive exists",
       "Type": "Compiled:Twenty57.Linx.Plugins.Compression.Zip.ExistOptions, Twenty57.Linx.Plugins.Compression, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
-      "Value": "OverwriteFile"
+      "Value": "IncrementFileName"
     },
     {
       "Id": "Files to compress",

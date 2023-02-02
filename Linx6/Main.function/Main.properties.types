@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "inQs",
+      "Properties": [
+        {
+          "Id": "AdPO",
+          "Name": "DocumentsFolder",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

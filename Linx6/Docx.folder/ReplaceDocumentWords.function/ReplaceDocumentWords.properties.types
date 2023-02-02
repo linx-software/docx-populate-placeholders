@@ -2,7 +2,7 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "SSmO",
+      "Id": "QMzw",
       "Properties": [
         {
           "Id": "415e",
@@ -17,8 +17,8 @@
           "Access": "ReadWrite"
         },
         {
-          "Id": "iMIi",
-          "Name": "NewFileNameFullPath",
+          "Id": "c17D",
+          "Name": "RootFolder",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         }

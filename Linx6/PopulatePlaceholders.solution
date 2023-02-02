@@ -15,6 +15,7 @@
     "twenty57.linx.solutiondependencies.types, 1.2.0"
   ],
   "Items": [
-    "DOCX.folder"
+    "Docx.folder",
+    "Main.function"
   ]
 }

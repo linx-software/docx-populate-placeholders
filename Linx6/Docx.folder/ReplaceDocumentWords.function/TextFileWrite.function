@@ -34,8 +34,8 @@
       "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.TextFileHandle, Twenty57.Linx.Plugins.File, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.DocxFileFullPath+GenerateRandomTempFolderName.Base64String+\"\\\\word\\\\document.xml\"",
-        "CompiledExpression": "={1}+{0}+\"\\\\word\\\\document.xml\"",
+        "Expression": "$.Parameters.DocxFileFullPath + GenerateRandomTempFolderName.Bytes[0] + \"\\\\word\\\\document.xml\"",
+        "CompiledExpression": "={1}+{0}[0]+\"\\\\word\\\\document.xml\"",
         "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"

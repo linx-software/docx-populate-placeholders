@@ -1,0 +1,50 @@
+{
+  "Properties": [
+    {
+      "Id": "Folder path",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.DocumentsFolder",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Include subfolders",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    },
+    {
+      "Id": "Loop results",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Return full path",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Search pattern",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "*.docx"
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "File",
+      "Name": "File",
+      "Result": "Generated:vcm7",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore",
+      "ConstitutesControlFlow": true
+    }
+  ],
+  "Result": "Generated:hpWP"
+}

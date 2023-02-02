@@ -11,8 +11,8 @@
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "$.Parameters.DocxFileFullPath+GenerateRandomTempFolderName.Base64String+\"\\\\word\\\\document.xml\"",
-        "CompiledExpression": "={1}+{0}+\"\\\\word\\\\document.xml\"",
+        "Expression": "$.Parameters.DocxFileFullPath + GenerateRandomTempFolderName.Bytes[0] + \"\\\\word\\\\document.xml\"",
+        "CompiledExpression": "={1}+{0}[0]+\"\\\\word\\\\document.xml\"",
         "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"
