@@ -29,21 +29,20 @@ Replacing placeholder text in a `.docx` file
 
 ## Explanation
 
-The function called `Main` reads the `DocumentsFolder` and returns a list of all `docx` files contained therein.
+### Main Function
 
-It then creates the folders needed to store new and processed documents. 
+1. Reads the `DocumentsFolder` and returns a list of all `docx` files contained therein.
+2. Creates the folders needed to store new and processed documents. 
+3. Loops through the list of files and calls a function called `ReplaceDocumentWords` for each one. 
 
-Finally, it loops through the list of files and calls a function called `ReplaceDocumentWords` for each one. 
+### ReplaceDocumentWords Function
 
-The `ReplaceDocumentWords` function first extracts the files contained in each `docx` archive into a temporary folder. 
-
-The XML file containing the text of the Word Document is then read.
-
-The function then loops through the key-value pairs contained in the `PlaceholderAndValue` list, finds all words matching the value in the placeholder property and replaces them with the value from the `Value` property.
-
-When all the replacements have completed, the extracted and updated files are zipped into a new '.docx' file.
-
-The new file is then saved in the `Results` folder and the processed file is moved to the `Processed` folder.
+1. Extracts the files contained in each `docx` archive into a temporary folder. 
+2. Reads the XML file containing the text of the Word Document.
+3. Loops through the key-value pairs contained in the `PlaceholderAndValue` list, finds all words matching the value in the placeholder property and replaces them with the value from the `Value` property.
+4. Zips the updated files into a new '.docx' file.
+5. Saves the new file in the `Results` folder.
+6. Moves the processed file to the `Processed` folder. 
 
 ## Contributions and questions
 

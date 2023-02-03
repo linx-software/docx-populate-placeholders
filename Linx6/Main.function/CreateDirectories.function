@@ -27,7 +27,12 @@
       "Id": "rlh9",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
-      "Value": null
+      "Value": {
+        "Expression": "$.Parameters.DocumentsFolder",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
     }
   ]
 }
