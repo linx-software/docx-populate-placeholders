@@ -12,20 +12,20 @@ Replacing placeholder text in a `.docx` file
 1. Download this repo
 2. Open the `PopulatePlaceholders.solution` file in the `Linx6` folder
 3. Debug the function entitled `Main`
-4. Enter the path to the `Template.docx` file in the `example` folder into the parameter entitled `DocumentsFolder`
+4. Enter the path to the `documents` folder of this repo into the parameter entitled `DocumentsFolder`
 5. Start the debugger
 
 ## Result
 
-1. The text `todays_date` in the document will be replaced by Linx with the current date
+1. The file `Template.docx` in the `documents` folder will be processed and the text `todays_date` will be replaced by Linx with the current date
 2. A new file will be created in a folder called `Results`
-3. The original file will be moved to afolder entitled `Processed`
+3. The original file will be moved to a folder entitled `Processed`
 
 ## Customisations
 
 1. Add your own placeholder text to the List entitled `ListOfChanges` in the `Main` function
 1. Place any `.docx` files you want processed into the `DocumentsFolder` folder
-1. When you debug the `Main` function all `docx` files in the `DocumentsFolder` folder will be processed
+1. Debug the `Main` function. All `docx` files in the `DocumentsFolder` folder will be processed
 
 ## Explanation
 
